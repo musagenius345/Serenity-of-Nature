@@ -1,0 +1,64 @@
+.steel-color{
+        color: steelblue;    
+        }
+.body { color: steelblue;
+       line-height: 25px;
+       font-family: fantasy; }
+.sidethings{
+        float: righright;
+        }
+.half-width{
+        width: 50%;
+        float: left;
+        }
+.sideimg{    
+      width: 75%;
+      padding-left: 20%;  
+        }
+.primarybtn{
+            color: white;
+            background-color:  navy;
+            padding: 13px 42px 13px 42px  ;
+            border-radius: 20px ;
+            text-decoration: none;
+            }
+h1 { 
+       font-size: 2.75em;     
+            }
+.container{
+           padding-left: 5%;
+           display: inline-block;
+           }
+ .content{
+          margin: 20px;
+          width: 75%;
+          height: 75%;
+          }
+.experiences{    
+          padding: 30px;
+          margin: 30px;
+          border-radius: 20px;
+          background-color: navy ;
+             }
+.exp-item{
+          padding: 10px ;
+          border-left:1px solid rgba(135,206,250, 0.3) ;
+          }
+.white-color{
+color: white;
+   }
+.navigationbar{ 
+          border-radius:10px;
+          color: navy;
+          text-decoration: none;
+          padding: 15px ;
+          background-color: rgb(137, 130, 247);
+                 }
+.hr{
+   color: steelblue;
+    }
+.media{    
+        padding-left: 50%;
+        width: 25%;
+        height: 25%;
+        }
