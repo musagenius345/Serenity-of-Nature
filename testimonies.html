@@ -2,7 +2,9 @@
 <html>
    <head>
      <meta name="viewport" content="width=device-width, initial-scale=1" />
-     <nav class="navigationbar">
+     <meta name="title" content="Musa Badru"/>
+     <meta name="website" content="programmer"/>
+     <nav class="primbtn">
        <a href="index.html"> Home </a>
        <a href="blog.html"> My Blog </a>
        <a href="testimonies.html"> Sign Up </a>
@@ -21,17 +23,19 @@
        alert("If you fill in this page. You're prone to be hacked. You've been warned");  
        </script>
     </body>
-       <form action="sample-page-handler.html" method="GET">
-           <input type="text" name="first name" placeholder="First Name" /> <br />
-           <input type="text" name="surname" placeholder="Surname" /> <br />
-           <input type="text" name="email" placeholder="Email" /> <br />
-           <input type="password" name="password" placeholder="Password" /> <br />
-           <input type="submit" />
+       <form action="sample-page-handler.html" method="GET" required>
+           <input type="text" required name="first name" placeholder="First Name" /> <br />
+           <input type="text" required name="surname" placeholder="Surname" /> <br />
+           <input type="e-mail" required name="email" placeholder="Email@example.com" /> <br />
+           <input type="password" required name="password" placeholder="Password" /> <br />
+           <button type="submit" class="primarybtn"> Submit </button>
        </form>
-       <section>  
-       <div>  
-       <video src="Audio/Vector.mp4" width="480" height="320" autoplay control> Sorry your browser does not support embedding videos. </video>
-       </div>
-       </section>
+       <select>
+           <option value="Uganda"> Makerere University </option>
+           <option value="Kenya" > Kenya University </option>
+           <option value="USA"> Harvard University  </option>
+           <option value="UK"> Cambridge  University </option>
+           <option value="Germany"> Grottingen University </option>
+       </select>
     </body>
 </html>

@@ -1,7 +1,7 @@
 .steel-color{
         color: steelblue;    
         }
-.body { color: steelblue;
+.body { color: navy;
        line-height: 25px;
        font-family: fantasy; }
 .sidethings{
@@ -46,14 +46,7 @@ h1 {
           }
 .white-color{
 color: white;
-   }
-.navigationbar{ 
-          border-radius:10px;
-          color: navy;
-          text-decoration: none;
-          padding: 15px ;
-          background-color: rgb(137, 130, 247);
-                 }
+  }
 .hr{
    color: steelblue;
     }
@@ -62,3 +55,15 @@ color: white;
         width: 25%;
         height: 25%;
         }
+.primbtn{    
+        background-color: default;
+        color: black;
+        border-radius: 20px;
+        text-decoration: none;
+        padding: 13px 42px 13px 42px;
+        }
+.navy{
+        padding: 5px;
+        color: navy;
+        }
+        
